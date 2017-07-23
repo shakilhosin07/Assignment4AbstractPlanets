@@ -5,9 +5,8 @@ using System.Text;
 /*
  * Name: Shakil Hosin
  * Date: July 23rd, 2017
- * Description: Took all the parameters of the planet base class and set the local variable _type to it's instance 
- * variable in the constructor.
- * Version: 0.2 - Set the constructor
+ * Description: Added the true/false methods for the ring and moon count.
+ * Version: 0.3 - Added the constructors to the GiantPlanet class
  */
 namespace AbstractPlanets
 {
