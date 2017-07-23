@@ -5,6 +5,7 @@ using System.Text;
 /*
  * Name: Shakil Hosin
  * Date: July 23rd, 2017
+ * Student Number: 300922629
  * Description: Added the true/false methods for the ring and moon count.
  * Version: 0.3 - Added the constructors to the GiantPlanet class
  */

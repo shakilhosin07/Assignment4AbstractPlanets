@@ -10,9 +10,12 @@ using System.Text;
  */
 namespace AbstractPlanets
 {
+    /// <summary>
+    /// Implements the Hasmoons method used in the subclasses. 
+    /// </summary>
     public interface IHasMoons
     {
-       
+        bool HasMoons();
     }
 }
   

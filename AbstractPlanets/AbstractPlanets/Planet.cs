@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 /*
  * Name: Shakil Hosin
+ * Student Number: 300922629
  * Date: July 23rd, 2017
  * Description: Overrode the tostring method to return name diameter and mass of a planet.
  * Version: 0.5 - overrode the tostring method, completed the abstract class planet.
