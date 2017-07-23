@@ -29,9 +29,40 @@ namespace AbstractPlanets
             this._type = type;
         }
 
-        // PRIVATE METHODS
-
         // PUBLIC METHODS
+        /// <summary>
+        /// This is the HasMoons method
+        /// if the mooncount is greater than zero it returns a value of true
+        /// if there isn't any moons, it returns false
+        /// </summary>
+        /// <returns></returns>
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+               
+        }
+        /// <summary>
+        /// Same for the above method, if there are any rings it returns true, if not then it returns false.
+        /// </summary>
+        /// <returns></returns>
+        public bool HasRings()
+        {
+            if (RingCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
     }
 }
