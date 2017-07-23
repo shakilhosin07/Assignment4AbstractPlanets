@@ -7,8 +7,8 @@ using System.Threading.Tasks;
  * Name: Shakil Hosin
  * Student Number: 300922629
  * Date: July 23rd, 2017
- * Description: This is the IHasMoons interface
- * Version: 0.1 - Created the IHasMoons interface
+ * Description: This is the Driver class
+ * Version: 0.2 - Created an object of the GiantPlanet class and played with the tostring method in the planet class.
  */
 namespace AbstractPlanets
 {
@@ -16,7 +16,8 @@ namespace AbstractPlanets
     {
         static void Main(string[] args)
         {
-            
+            GiantPlanet Shaktopia = new GiantPlanet("Shaktopia", 200000, 10000000020, "gas");
+            Console.WriteLine(Shaktopia);
         }
     }
 }

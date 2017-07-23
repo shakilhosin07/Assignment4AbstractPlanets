@@ -119,8 +119,8 @@ namespace AbstractPlanets
         {
             string outputString = "";
             outputString += "===========================================================\n";
-            outputString += "Planet Name: " + this.Name + "Diameter: " + this.Diameter + "Mass: " + this.Mass;
-            outputString += "===========================================================\n";
+            outputString += "Planet Name: " + this.Name +"\n"+  "Diameter: " + this.Diameter +"\n"  + "Mass: " + this.Mass;
+            outputString += "\n===========================================================";
 
             return outputString;
         }
