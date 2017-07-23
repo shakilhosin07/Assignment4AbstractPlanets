@@ -10,16 +10,17 @@
   <Class Name="AbstractPlanets.Planet">
     <Position X="6.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQBIAAgAAAAAEAAAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
+      <HashCode>AAQBIAAgAAAAAEAEAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AbstractPlanets.GiantPlanet">
     <Position X="4.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="AbstractPlanets.TerrestrialPlanet">
     <Position X="2.5" Y="2.5" Width="1.5" />
