@@ -12,5 +12,17 @@ namespace AbstractPlanets
 {
     public interface IHasMoons
     {
+        // PRIVATE INSTANCE VARIABLES (FIELDS)
+
+        // PUBLIC PROPERTIES
+
+        // CONSTRUCTORS ---------------------------------------------
+
+
+        // PRIVATE METHODS
+
+        // PUBLIC METHODS
+
     }
 }
+  

@@ -12,5 +12,16 @@ namespace AbstractPlanets
 {
     public class TerrestrialPlanet
     {
+        // PRIVATE INSTANCE VARIABLES (FIELDS)
+
+        // PUBLIC PROPERTIES
+
+        // CONSTRUCTORS ---------------------------------------------
+
+
+        // PRIVATE METHODS
+
+        // PUBLIC METHODS
+
     }
 }

@@ -12,5 +12,16 @@ namespace AbstractPlanets
 {
     public class GiantPlanet
     {
+        // PRIVATE INSTANCE VARIABLES (FIELDS)
+
+        // PUBLIC PROPERTIES
+
+        // CONSTRUCTORS ---------------------------------------------
+
+
+        // PRIVATE METHODS
+
+        // PUBLIC METHODS
+
     }
 }
