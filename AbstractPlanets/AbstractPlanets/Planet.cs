@@ -5,9 +5,8 @@ using System.Text;
 /*
  * Name: Shakil Hosin
  * Date: July 23rd, 2017
- * Description: Added the constructor to the planet class taking in local variables and 
- * setting them to the instance variables
- * Version: 0.4 - populated the constructor in the abstract class planet.
+ * Description: Overrode the tostring method to return name diameter and mass of a planet.
+ * Version: 0.5 - overrode the tostring method, completed the abstract class planet.
  */
 namespace AbstractPlanets
 {
@@ -110,9 +109,21 @@ namespace AbstractPlanets
             this._mass = mass;
         }
 
-        // PRIVATE METHODS
+        // OVERRIDE METHOD
+        /// <summary>
+        /// Tried the output string method instead of the string.format method (will see if this works)
+        /// </summary>
+        /// <returns> Name, Diameter, and Mass</returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "===========================================================\n";
+            outputString += "Planet Name: " + this.Name + "Diameter: " + this.Diameter + "Mass: " + this.Mass;
+            outputString += "===========================================================\n";
 
-        // PUBLIC METHODS
+            return outputString;
+        }
+
 
     }
 }
