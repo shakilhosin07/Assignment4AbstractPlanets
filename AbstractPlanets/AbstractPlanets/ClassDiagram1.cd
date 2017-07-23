@@ -10,7 +10,7 @@
   <Class Name="AbstractPlanets.Planet">
     <Position X="6.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQBIAAgAAAAAEAAAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -40,6 +40,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasRings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractPlanets.IHabitable">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHabitable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
