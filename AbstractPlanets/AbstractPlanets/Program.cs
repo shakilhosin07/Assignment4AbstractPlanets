@@ -25,6 +25,7 @@ namespace AbstractPlanets
             Shaktopia.OrbitalPeriod = 95;
             Shaktopia.RotationPeriod = 762;
             Shaktopia.MoonCount = 5;
+            Shaktopia.RingCount = 0;
             Console.WriteLine("STATS");
             Console.WriteLine(Shaktopia);
             Console.WriteLine("Has Moons?");
@@ -38,6 +39,7 @@ namespace AbstractPlanets
             Torontoplo.OrbitalPeriod = 18;
             Torontoplo.RotationPeriod = 190;
             Torontoplo.MoonCount = 0;
+            Torontoplo.RingCount = 1;
             Console.WriteLine();
             Console.WriteLine("STATS");
             Console.WriteLine(Torontoplo);
